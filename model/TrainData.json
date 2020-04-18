@@ -1,0 +1,150 @@
+[
+	{
+	"train_name": "Rajdhani Exp",
+	"train_number" : "12354",
+	"seat" : [
+		{"compartment_name" : "S1" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S2" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S3" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S4" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S5" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S6" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S7" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S8" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S9" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S10" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S11" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S12" , "available_seat" : 3 , "booked_seat" : 0 }	
+	],
+	"availability" : 80
+},
+{
+	"train_name": "Toofan Exp",
+	"train_number" : "12884",
+	"seat" : [
+		{"compartment_name" : "S1" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S2" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S3" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S4" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S5" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S6" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S7" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S8" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S9" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S10" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S11" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S12" , "available_seat" : 3 , "booked_seat" : 0 }	
+	],
+	"availability" : 80
+},
+{
+	"train_name": "Kalka Exp",
+	"train_number" : "12564",
+	"seat" : [
+		{"compartment_name" : "S1" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S2" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S3" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S4" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S5" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S6" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S7" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S8" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S9" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S10" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S11" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S12" , "available_seat" : 3 , "booked_seat" : 0 }	
+	],
+	"availability" : 80
+},
+{
+	"train_name": "Anvt EXpress",
+	"train_number" : "12684",
+	"seat" : [
+		{"compartment_name" : "S1" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S2" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S3" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S4" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S5" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S6" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S7" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S8" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S9" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S10" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S11" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S12" , "available_seat" : 3 , "booked_seat" : 0 }	
+	],
+	"availability" : 80
+},{
+	"train_name": "Jammu Exp",
+	"train_number" : "11354",
+	"seat" : [
+		{"compartment_name" : "S1" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S2" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S3" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S4" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S5" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S6" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S7" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S8" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S9" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S10" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S11" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S12" , "available_seat" : 3 , "booked_seat" : 0 }	
+	],
+	"availability" : 80
+},{
+	"train_name": "Taj Exp",
+	"train_number" : "14578",
+	"seat" : [
+		{"compartment_name" : "S1" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S2" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S3" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S4" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S5" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S6" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S7" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S8" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S9" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S10" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S11" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S12" , "available_seat" : 3 , "booked_seat" : 0 }	
+	],
+	"availability" : 80
+},{
+	"train_name": "Smpoorn Exp",
+	"train_number" : "12999",
+	"seat" : [
+		{"compartment_name" : "S1" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S2" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S3" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S4" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S5" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S6" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S7" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S8" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S9" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S10" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S11" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S12" , "available_seat" : 3 , "booked_seat" : 0 }	
+	],
+	"availability" : 80
+},{
+	"train_name": "MLDT Exp",
+	"train_number" : "13884",
+	"seat" : [
+		{"compartment_name" : "S1" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S2" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S3" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S4" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S5" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S6" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S7" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S8" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S9" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S10" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S11" , "available_seat" : 7 , "booked_seat" : 0 },
+		{"compartment_name" : "S12" , "available_seat" : 3 , "booked_seat" : 0 }	
+	],
+	"availability" : 80
+}
+]

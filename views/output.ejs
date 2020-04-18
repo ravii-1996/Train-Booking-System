@@ -1,0 +1,27 @@
+<!-- append home page -->
+<%- include('home')%>
+
+<div style="background-color: white; text-align: center; padding: 10px;">
+  <div
+    style="
+      background-color: whitesmoke;
+      text-align: center;
+      padding: 90px 30px;
+      width: 600px;
+      height: 400px;
+      margin: auto;
+    "
+  >
+    <!-- check seat is booked or not if booked print the seat number else print the seat is not booked. -->
+    <% if(getSeat) {%>
+    <h3>Your Booking is Confirmed in <%= trainObj.train_name%> !</h3>
+    <p>We'll send you booking conformation email.</p>
+    <p>Booking Details...</p>
+    <% for (let i =0; i < getSeat.length; i++ ) { %>
+    <button type="button" class="btn btn-secondary"><%=getSeat[i]%></button>
+    <%}}else { %>
+    <h3>Your Booking is not Confirmed in <%= trainObj.train_name%> !</h3>
+    <p>Seat Not Available...</p>
+    <%}%>
+  </div>
+</div>

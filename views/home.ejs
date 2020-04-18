@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">
+    <!-- <link href="contact.css" rel="stylesheet"> -->
+
+    <style>
+    
+    #book-btn{
+      color:black;
+      margin-left:10px;
+      font-size:12px;
+      
+    }
+    </style>
+    <title>Ticket Booking</title>
+
+    <!-- cdn bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/jumbotron/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="jumbotron.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    </div>
+
+    <div style="background-color: white; margin-top: 80px;">
+      <div style="text-align: center;">
+        <h1>Railway Booking System</h1>
+      </div>
+      <!-- render list of train which is present in db -->
+      <div style="margin-top: 30px;">
+        <% for (let i =0; i < trainObj.length;  i++ ) { %>
+          <div class="container-fluid" style="background-color: whitesmoke; margin : 10px ;">
+            <form action="/booking">
+            <div class="row" style="text-align: center;">
+              <div class="col" style="padding: 15px;">
+                <input style="background-color: transparent; border: 0px; font-size:14px" type="text" readonly id="trainNumber" value=<%=trainObj[i].train_number%> name="trainNumber">
+              </div>
+              <div class="col" style="padding: 15px";> 
+                <label style="font-size:14px"> <%=trainObj[i].train_name%> </label>
+              </div>
+              <div class="col" style="padding: 15px;">
+                <select class="btn btn-secondary" style="font-size:14px" name= "seatNumber"id="inlineFormCustomSelectPref">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>               
+                </select>
+              </div>
+              <div class="col" style="padding: 5px;">
+                <button class="btn btn-outline-secondary" id ="book-btn"type="submit">
+                  <div>
+                    Book Tickets<br>
+                    <small style="color: green;">Availiable <%=trainObj[i].availability%> </small>
+                  </div>
+                </button>
+              </div>
+            </div>
+            </form>
+          </div>
+        <% } %>
+      </div>
+    </div>
+  </body>
+</html>
