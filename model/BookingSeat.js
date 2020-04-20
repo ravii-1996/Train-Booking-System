@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/TrainBookingSystem', { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect("mongodb+srv://Ravii_1996:Qwerty%2397@cluster0-r98r8.mongodb.net/test" , { useNewUrlParser: true, useUnifiedTopology: true });
 var Schema = mongoose.Schema;
 const conn = mongoose.connection;
 conn.on('connected', () => {
