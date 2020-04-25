@@ -15,7 +15,26 @@ const getSeatNumber = function (trainObj, noOfTickets) {
    */
 
   // First Case --- Ticket Booked in a Group...
-  for (let i = 0; i < trainObj.seat.length; i++) {
+
+  for(let i=0; i<trainObj.seat.length && noOfTickets >0; i++){
+    if (trainObj.seat[i].available_seat == noOfTickets) {
+      let end = i * 7 + parseInt(noOfTickets) + trainObj.seat[i].booked_seat;
+      let start = end - parseInt(noOfTickets) + 1;
+      for (let j = start; j <= end; j++) {
+        seatNumber.push(trainObj.seat[i].compartment_name + "- " + j);
+      }
+
+      // Update the remaning details in trainOBJ now this trainObj has updated value if ticket booked in a group..... 
+      trainObj.seat[i].available_seat = 0;
+      trainObj.seat[i].booked_seat = trainObj.seat[i].booked_seat + parseInt(noOfTickets);
+      trainObj.availability = trainObj.availability - parseInt(noOfTickets);
+
+      // noOfTickets will used as a flag here... i.e if ticket booked in group then we dont proceed with the 2nd case...
+      noOfTickets = 0;
+      break;
+    }
+  }
+  for (let i = 0; i < trainObj.seat.length && noOfTickets >0; i++) {
 
     /** 
      * First Check Schema for better Understanding..

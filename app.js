@@ -58,7 +58,7 @@ app.get('/booking', async function (req, res) {
     SeatBooking.updateOne({ train_number: req.query.trainNumber }, { $set: { seat: trainObj.seat, availability: trainObj.availability } }, function (err, result) {
       if (err)
         throw err;
-      console.log("Updated Successfully", result);
+      //console.log("Updated Successfully", result);
 
       // pass train object and get seat to output file to show the details...
       res.render('output.ejs', {
