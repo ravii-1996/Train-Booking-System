@@ -16,6 +16,7 @@ const getSeatNumber = function (trainObj, noOfTickets) {
 
   // First Case --- Ticket Booked in a Group...
 
+  // Ideal case: Choose that row which is fully filled after booking.
   for(let i=0; i<trainObj.seat.length && noOfTickets >0; i++){
     if (trainObj.seat[i].available_seat == noOfTickets) {
       let end = i * 7 + parseInt(noOfTickets) + trainObj.seat[i].booked_seat;
