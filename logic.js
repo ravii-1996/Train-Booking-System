@@ -3,6 +3,18 @@
  * If Group Booking (i.e ticket should be in a same row) not available then it will book ticket from the first compartment...
  */
 
+ // wthat code wrap into a function  --- This is use to get the seat number end point 
+ const getEndseatPoint = function(noOfTickets,booked_seat, i ){
+  
+    let k=(i-6);
+    let xsum=0;
+    // we can use natural number sum (n(n+1)/2) here for better performace
+    for(let z=1;z<=k;z++){
+      xsum+= 7-z;
+    }
+    let end = 6*7 + xsum + parseInt(noOfTickets) + booked_seat;
+    return end;
+ }
 const getSeatNumber = function (trainObj, noOfTickets) {
   // if available seat less than no of booking tickets then return null in array of seatNumber.
   if (trainObj.availability < noOfTickets)
@@ -18,8 +30,12 @@ const getSeatNumber = function (trainObj, noOfTickets) {
 
   // Ideal case: Choose that row which is fully filled after booking.
   for(let i=0; i<trainObj.seat.length && noOfTickets >0; i++){
+    let end=0;
     if (trainObj.seat[i].available_seat == noOfTickets) {
-      let end = i * 7 + parseInt(noOfTickets) + trainObj.seat[i].booked_seat;
+      if(i>6)
+         end = getEndseatPoint(noOfTickets, trainObj.seat[i].booked_seat ,i);
+      else
+         end = i * 7 + parseInt(noOfTickets) + trainObj.seat[i].booked_seat;
       let start = end - parseInt(noOfTickets) + 1;
       for (let j = start; j <= end; j++) {
         seatNumber.push(trainObj.seat[i].compartment_name + "- " + j);
@@ -48,7 +64,11 @@ const getSeatNumber = function (trainObj, noOfTickets) {
       /**
        * To get the seatNumber we are using simple mathematics.. just get the start and end point then fill seatNumber in an array..by traversing..
        */
-      let end = i * 7 + parseInt(noOfTickets) + trainObj.seat[i].booked_seat;
+      let end =0;
+      if(i>6)
+         end = getEndseatPoint(noOfTickets, trainObj.seat[i].booked_seat ,i);
+      else
+         end = i * 7 + parseInt(noOfTickets) + trainObj.seat[i].booked_seat;
       let start = end - parseInt(noOfTickets) + 1;
       for (let j = start; j <= end; j++) {
         seatNumber.push(trainObj.seat[i].compartment_name + "- " + j);
@@ -76,7 +96,11 @@ const getSeatNumber = function (trainObj, noOfTickets) {
 
 
       //same logic as 1st case... if compartment seat availablity > noOfTickets
-      let end = i * 7 + parseInt(noOfTickets) + trainObj.seat[i].booked_seat;
+      let end =0;
+      if(i>6)
+         end = getEndseatPoint(noOfTickets, trainObj.seat[i].booked_seat ,i);
+      else
+         end = i * 7 + parseInt(noOfTickets) + trainObj.seat[i].booked_seat;
       let start = end - parseInt(noOfTickets) + 1;
       for (let j = start; j <= end; j++) {
         seatNumber.push(trainObj.seat[i].compartment_name + "- " + j);
@@ -99,7 +123,11 @@ const getSeatNumber = function (trainObj, noOfTickets) {
     else if (trainObj.seat[i].available_seat < noOfTickets && trainObj.seat[i].available_seat > 0) {
 
       // find the start and end point from where seat booking happens..
-      let end = i * 7 + trainObj.seat[i].available_seat + trainObj.seat[i].booked_seat;
+      let end =0;
+      if(i>6)
+         end = getEndseatPoint(noOfTickets, trainObj.seat[i].booked_seat, i);
+      else
+         end = i * 7 + parseInt(noOfTickets) + trainObj.seat[i].booked_seat;
       let start = end - trainObj.seat[i].available_seat + 1;
       for (let j = start; j <= end; j++) {
         seatNumber.push(trainObj.seat[i].compartment_name + "- " + j);

@@ -9,14 +9,14 @@
 		{"compartment_name" : "S4" , "available_seat" : 7 , "booked_seat" : 0 },
 		{"compartment_name" : "S5" , "available_seat" : 7 , "booked_seat" : 0 },
 		{"compartment_name" : "S6" , "available_seat" : 7 , "booked_seat" : 0 },
-		{"compartment_name" : "S7" , "available_seat" : 7 , "booked_seat" : 0 },
-		{"compartment_name" : "S8" , "available_seat" : 7 , "booked_seat" : 0 },
-		{"compartment_name" : "S9" , "available_seat" : 7 , "booked_seat" : 0 },
-		{"compartment_name" : "S10" , "available_seat" : 7 , "booked_seat" : 0 },
-		{"compartment_name" : "S11" , "available_seat" : 7 , "booked_seat" : 0 },
-		{"compartment_name" : "S12" , "available_seat" : 3 , "booked_seat" : 0 }	
+		{"compartment_name" : "S7" , "available_seat" : 6 , "booked_seat" : 0 },
+		{"compartment_name" : "S8" , "available_seat" : 5 , "booked_seat" : 0 },
+		{"compartment_name" : "S9" , "available_seat" : 4 , "booked_seat" : 0 },
+		{"compartment_name" : "S10" , "available_seat" : 3 , "booked_seat" : 0 },
+		{"compartment_name" : "S11" , "available_seat" : 2 , "booked_seat" : 0 },
+		{"compartment_name" : "S12" , "available_seat" : 1 , "booked_seat" : 0 }	
 	],
-	"availability" : 80
+	"availability" : 63
 },
 {
 	"train_name": "Toofan Exp",
@@ -28,14 +28,14 @@
 		{"compartment_name" : "S4" , "available_seat" : 7 , "booked_seat" : 0 },
 		{"compartment_name" : "S5" , "available_seat" : 7 , "booked_seat" : 0 },
 		{"compartment_name" : "S6" , "available_seat" : 7 , "booked_seat" : 0 },
-		{"compartment_name" : "S7" , "available_seat" : 7 , "booked_seat" : 0 },
-		{"compartment_name" : "S8" , "available_seat" : 7 , "booked_seat" : 0 },
-		{"compartment_name" : "S9" , "available_seat" : 7 , "booked_seat" : 0 },
-		{"compartment_name" : "S10" , "available_seat" : 7 , "booked_seat" : 0 },
-		{"compartment_name" : "S11" , "available_seat" : 7 , "booked_seat" : 0 },
-		{"compartment_name" : "S12" , "available_seat" : 3 , "booked_seat" : 0 }	
+		{"compartment_name" : "S7" , "available_seat" : 6 , "booked_seat" : 0 },
+		{"compartment_name" : "S8" , "available_seat" : 5 , "booked_seat" : 0 },
+		{"compartment_name" : "S9" , "available_seat" : 4 , "booked_seat" : 0 },
+		{"compartment_name" : "S10" , "available_seat" : 3 , "booked_seat" : 0 },
+		{"compartment_name" : "S11" , "available_seat" : 2 , "booked_seat" : 0 },
+		{"compartment_name" : "S12" , "available_seat" : 1 , "booked_seat" : 0 }	
 	],
-	"availability" : 80
+	"availability" : 63
 },
 {
 	"train_name": "Kalka Exp",
@@ -47,14 +47,14 @@
 		{"compartment_name" : "S4" , "available_seat" : 7 , "booked_seat" : 0 },
 		{"compartment_name" : "S5" , "available_seat" : 7 , "booked_seat" : 0 },
 		{"compartment_name" : "S6" , "available_seat" : 7 , "booked_seat" : 0 },
-		{"compartment_name" : "S7" , "available_seat" : 7 , "booked_seat" : 0 },
-		{"compartment_name" : "S8" , "available_seat" : 7 , "booked_seat" : 0 },
-		{"compartment_name" : "S9" , "available_seat" : 7 , "booked_seat" : 0 },
-		{"compartment_name" : "S10" , "available_seat" : 7 , "booked_seat" : 0 },
-		{"compartment_name" : "S11" , "available_seat" : 7 , "booked_seat" : 0 },
-		{"compartment_name" : "S12" , "available_seat" : 3 , "booked_seat" : 0 }	
+		{"compartment_name" : "S7" , "available_seat" : 6 , "booked_seat" : 0 },
+		{"compartment_name" : "S8" , "available_seat" : 5 , "booked_seat" : 0 },
+		{"compartment_name" : "S9" , "available_seat" : 4 , "booked_seat" : 0 },
+		{"compartment_name" : "S10" , "available_seat" : 3 , "booked_seat" : 0 },
+		{"compartment_name" : "S11" , "available_seat" : 2 , "booked_seat" : 0 },
+		{"compartment_name" : "S12" , "available_seat" : 1 , "booked_seat" : 0 }	
 	],
-	"availability" : 80
+	"availability" : 63
 },
 {
 	"train_name": "Anvt EXpress",
@@ -66,14 +66,14 @@
 		{"compartment_name" : "S4" , "available_seat" : 7 , "booked_seat" : 0 },
 		{"compartment_name" : "S5" , "available_seat" : 7 , "booked_seat" : 0 },
 		{"compartment_name" : "S6" , "available_seat" : 7 , "booked_seat" : 0 },
-		{"compartment_name" : "S7" , "available_seat" : 7 , "booked_seat" : 0 },
-		{"compartment_name" : "S8" , "available_seat" : 7 , "booked_seat" : 0 },
-		{"compartment_name" : "S9" , "available_seat" : 7 , "booked_seat" : 0 },
-		{"compartment_name" : "S10" , "available_seat" : 7 , "booked_seat" : 0 },
-		{"compartment_name" : "S11" , "available_seat" : 7 , "booked_seat" : 0 },
-		{"compartment_name" : "S12" , "available_seat" : 3 , "booked_seat" : 0 }	
+		{"compartment_name" : "S7" , "available_seat" : 6 , "booked_seat" : 0 },
+		{"compartment_name" : "S8" , "available_seat" : 5 , "booked_seat" : 0 },
+		{"compartment_name" : "S9" , "available_seat" : 4 , "booked_seat" : 0 },
+		{"compartment_name" : "S10" , "available_seat" : 3 , "booked_seat" : 0 },
+		{"compartment_name" : "S11" , "available_seat" : 2 , "booked_seat" : 0 },
+		{"compartment_name" : "S12" , "available_seat" : 1 , "booked_seat" : 0 }	
 	],
-	"availability" : 80
+	"availability" : 63
 },{
 	"train_name": "Jammu Exp",
 	"train_number" : "11354",
@@ -84,14 +84,14 @@
 		{"compartment_name" : "S4" , "available_seat" : 7 , "booked_seat" : 0 },
 		{"compartment_name" : "S5" , "available_seat" : 7 , "booked_seat" : 0 },
 		{"compartment_name" : "S6" , "available_seat" : 7 , "booked_seat" : 0 },
-		{"compartment_name" : "S7" , "available_seat" : 7 , "booked_seat" : 0 },
-		{"compartment_name" : "S8" , "available_seat" : 7 , "booked_seat" : 0 },
-		{"compartment_name" : "S9" , "available_seat" : 7 , "booked_seat" : 0 },
-		{"compartment_name" : "S10" , "available_seat" : 7 , "booked_seat" : 0 },
-		{"compartment_name" : "S11" , "available_seat" : 7 , "booked_seat" : 0 },
-		{"compartment_name" : "S12" , "available_seat" : 3 , "booked_seat" : 0 }	
+		{"compartment_name" : "S7" , "available_seat" : 6 , "booked_seat" : 0 },
+		{"compartment_name" : "S8" , "available_seat" : 5 , "booked_seat" : 0 },
+		{"compartment_name" : "S9" , "available_seat" : 4 , "booked_seat" : 0 },
+		{"compartment_name" : "S10" , "available_seat" : 3 , "booked_seat" : 0 },
+		{"compartment_name" : "S11" , "available_seat" : 2 , "booked_seat" : 0 },
+		{"compartment_name" : "S12" , "available_seat" : 1 , "booked_seat" : 0 }	
 	],
-	"availability" : 80
+	"availability" : 63
 },{
 	"train_name": "Taj Exp",
 	"train_number" : "14578",
@@ -102,14 +102,14 @@
 		{"compartment_name" : "S4" , "available_seat" : 7 , "booked_seat" : 0 },
 		{"compartment_name" : "S5" , "available_seat" : 7 , "booked_seat" : 0 },
 		{"compartment_name" : "S6" , "available_seat" : 7 , "booked_seat" : 0 },
-		{"compartment_name" : "S7" , "available_seat" : 7 , "booked_seat" : 0 },
-		{"compartment_name" : "S8" , "available_seat" : 7 , "booked_seat" : 0 },
-		{"compartment_name" : "S9" , "available_seat" : 7 , "booked_seat" : 0 },
-		{"compartment_name" : "S10" , "available_seat" : 7 , "booked_seat" : 0 },
-		{"compartment_name" : "S11" , "available_seat" : 7 , "booked_seat" : 0 },
-		{"compartment_name" : "S12" , "available_seat" : 3 , "booked_seat" : 0 }	
+		{"compartment_name" : "S7" , "available_seat" : 6 , "booked_seat" : 0 },
+		{"compartment_name" : "S8" , "available_seat" : 5 , "booked_seat" : 0 },
+		{"compartment_name" : "S9" , "available_seat" : 4 , "booked_seat" : 0 },
+		{"compartment_name" : "S10" , "available_seat" : 3 , "booked_seat" : 0 },
+		{"compartment_name" : "S11" , "available_seat" : 2 , "booked_seat" : 0 },
+		{"compartment_name" : "S12" , "available_seat" : 1 , "booked_seat" : 0 }	
 	],
-	"availability" : 80
+	"availability" : 63
 },{
 	"train_name": "Smpoorn Exp",
 	"train_number" : "12999",
@@ -120,14 +120,14 @@
 		{"compartment_name" : "S4" , "available_seat" : 7 , "booked_seat" : 0 },
 		{"compartment_name" : "S5" , "available_seat" : 7 , "booked_seat" : 0 },
 		{"compartment_name" : "S6" , "available_seat" : 7 , "booked_seat" : 0 },
-		{"compartment_name" : "S7" , "available_seat" : 7 , "booked_seat" : 0 },
-		{"compartment_name" : "S8" , "available_seat" : 7 , "booked_seat" : 0 },
-		{"compartment_name" : "S9" , "available_seat" : 7 , "booked_seat" : 0 },
-		{"compartment_name" : "S10" , "available_seat" : 7 , "booked_seat" : 0 },
-		{"compartment_name" : "S11" , "available_seat" : 7 , "booked_seat" : 0 },
-		{"compartment_name" : "S12" , "available_seat" : 3 , "booked_seat" : 0 }	
+		{"compartment_name" : "S7" , "available_seat" : 6 , "booked_seat" : 0 },
+		{"compartment_name" : "S8" , "available_seat" : 5 , "booked_seat" : 0 },
+		{"compartment_name" : "S9" , "available_seat" : 4 , "booked_seat" : 0 },
+		{"compartment_name" : "S10" , "available_seat" : 3 , "booked_seat" : 0 },
+		{"compartment_name" : "S11" , "available_seat" : 2 , "booked_seat" : 0 },
+		{"compartment_name" : "S12" , "available_seat" : 1 , "booked_seat" : 0 }	
 	],
-	"availability" : 80
+	"availability" : 63
 },{
 	"train_name": "MLDT Exp",
 	"train_number" : "13884",
@@ -138,13 +138,13 @@
 		{"compartment_name" : "S4" , "available_seat" : 7 , "booked_seat" : 0 },
 		{"compartment_name" : "S5" , "available_seat" : 7 , "booked_seat" : 0 },
 		{"compartment_name" : "S6" , "available_seat" : 7 , "booked_seat" : 0 },
-		{"compartment_name" : "S7" , "available_seat" : 7 , "booked_seat" : 0 },
-		{"compartment_name" : "S8" , "available_seat" : 7 , "booked_seat" : 0 },
-		{"compartment_name" : "S9" , "available_seat" : 7 , "booked_seat" : 0 },
-		{"compartment_name" : "S10" , "available_seat" : 7 , "booked_seat" : 0 },
-		{"compartment_name" : "S11" , "available_seat" : 7 , "booked_seat" : 0 },
-		{"compartment_name" : "S12" , "available_seat" : 3 , "booked_seat" : 0 }	
+		{"compartment_name" : "S7" , "available_seat" : 6 , "booked_seat" : 0 },
+		{"compartment_name" : "S8" , "available_seat" : 5 , "booked_seat" : 0 },
+		{"compartment_name" : "S9" , "available_seat" : 4 , "booked_seat" : 0 },
+		{"compartment_name" : "S10" , "available_seat" : 3 , "booked_seat" : 0 },
+		{"compartment_name" : "S11" , "available_seat" : 2 , "booked_seat" : 0 },
+		{"compartment_name" : "S12" , "available_seat" : 1 , "booked_seat" : 0 }	
 	],
-	"availability" : 80
+	"availability" : 63
 }
 ]
